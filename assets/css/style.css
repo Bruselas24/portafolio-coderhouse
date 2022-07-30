@@ -173,3 +173,23 @@ footer .media a img {
         font-size: 1.1rem;
     }
 }
+
+.delay1 {
+    animation-delay: .2s;
+}
+
+.delay2 {
+    animation-delay: .4s;
+}
+
+.delay3 {
+    animation-delay: .6s;
+}
+
+.delay4 {
+    animation-delay: .8s;
+}
+
+.delay5 {
+    animation-delay: 1s;
+}
