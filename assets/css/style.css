@@ -8,6 +8,7 @@
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -138,8 +139,18 @@ footer .media a img {
 }
 
 @media (max-width:720px) {
+    header {
+        height: auto;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        display: list-item !important;
+        margin: 20px;
+    }
     nav .links {
-        display: none;
+        justify-content: flex-start;
     }
     nav .logo {
         width: 100%;
