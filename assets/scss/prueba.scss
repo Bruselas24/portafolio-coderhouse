@@ -1,0 +1,44 @@
+@import "componentes/header";
+button a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 100%;
+        h1 {
+            font-size: 1.7rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+        button {
+            width: fit-content;
+            font-size: 1.3rem;
+            margin: 0 40% 0 40%;
+            background-color: #8AB9FF;
+            border: none;
+            height: 50px;
+            border-radius: 30px;
+        }
+        .imagen img {
+            width: 100%;
+        }
+    }
+}
+
+@import "componentes/footer";

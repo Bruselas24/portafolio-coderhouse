@@ -1,0 +1,20 @@
+{
+    "name": "portafolio-torres",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "sass --watch assets/scss:assets/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Bruselas24/portafolio-coderhouse.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Bruselas24/portafolio-coderhouse/issues"
+    },
+    "homepage": "https://github.com/Bruselas24/portafolio-coderhouse#readme"
+}
