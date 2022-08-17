@@ -1,3 +1,10 @@
+@media (max:764px) {
+    html,
+    body {
+        height: auto;
+    }
+}
+
 .slide-in-blurred-top {
     -webkit-animation: slide-in-blurred-top 1.2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
     animation: slide-in-blurred-top 1.2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;

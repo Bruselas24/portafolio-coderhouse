@@ -15,38 +15,35 @@ header {
   height: 10%;
   background-color: #D9D9D9;
 }
-
-nav {
+header nav {
   height: 100%;
   display: flex;
 }
-nav .logo {
+header nav .logo, header nav .links {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 5%;
 }
-nav .logo img {
+header nav .logo img, header nav .links img {
   margin-right: 2rem;
 }
-nav .logo h2 {
+header nav .logo h2, header nav .links h2 {
   font-size: 2rem;
 }
-nav .logo .links {
-  display: flex;
-  align-items: center;
+header nav .links {
   justify-content: flex-end;
   margin-right: 2%;
   height: 100%;
   width: 100%;
 }
-nav .logo .links ul {
+header nav .links ul {
   list-style: none;
 }
-nav .logo .links ul li {
+header nav .links ul li {
   display: inline-block;
 }
-nav .logo .links ul a {
+header nav .links ul a {
   font-size: 1.1rem;
   color: black;
   text-decoration: none;
@@ -98,6 +95,7 @@ button a {
 footer {
   height: 10%;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #D9D9D9;
 }
@@ -136,7 +134,7 @@ footer .copy {
   nav .links {
     justify-content: flex-start;
   }
-  nav .logo {
+  nav .logo, header nav .links {
     width: 100%;
   }
   .imagen {

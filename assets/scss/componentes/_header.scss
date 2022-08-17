@@ -1,3 +1,5 @@
+@import 'variables';
+@import 'mixin';
 * {
     margin: 0;
     padding: 0;
@@ -13,26 +15,22 @@ body {
 
 header {
     height: 10%;
-    background-color: #D9D9D9;
-}
-
-nav {
-    height: 100%;
-    display: flex;
-    .logo {
+    background-color: map-get($colors, primario);
+    nav {
+        height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 5%;
-        img {
-            margin-right: 2rem;
-        }
-        h2 {
-            font-size: 2rem;
+        .logo {
+            @include display(flex, center, center);
+            margin-left: 5%;
+            img {
+                margin-right: 2rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
         }
         .links {
-            display: flex;
-            align-items: center;
+            @extend .logo;
             justify-content: flex-end;
             margin-right: 2%;
             height: 100%;

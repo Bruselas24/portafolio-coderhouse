@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <!-- SEO -->
+    <meta name="description" content="Portafolio de Bruno Torres, Formulario de contacto">
+    <meta name="keywords" content="portfolio, programador, desarrollador, desarrollador web, developer, contacto">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -19,7 +22,7 @@
     <header>
         <nav>
             <div class="logo animate__animated animate__slideInLeft">
-                <img src="../img/programador.png" class="">
+                <img src="../img/programador.png" alt="Icono de programador">
                 <h2>Contacto</h2>
             </div>
 
@@ -35,31 +38,32 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container justify-content-evenly">
 
-        <div class="row justify-content-center">
-            <div class="col-md-4 col-sm-8 col-xs-6 group slide-in-blurred-top ">
+        <div class="row">
+            <div class="col-md-4 col-sm-8 col-xs-6 group slide-in-blurred-top m-auto">
                 <h2>Formulario de Contacto</h2>
-                <img src="../img/correo-electronico.png" class="img-thumbnail mx-auto border-0">
             </div>
-            <div class="col-md-8 col-sm-8 col-xs-6 justify-content-center ">
+            <div class="col-md-8 col-sm-8 col-xs-6 justify-content-center m-auto">
                 <form class="form">
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label animate__animated animate__fadeIn delay1">Nombre</label>
-                        <input type="password" class="form-control animate__fadeIn delay1" id="exampleInputPassword1">
+                        <label for="nombre" class="form-label animate__animated animate__fadeIn delay1">Nombre</label>
+                        <input type="password" class="form-control animate__fadeIn delay1" id="nombre">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label animate__animated animate__fadeIn delay2">Mail</label>
-                        <input type="password" class="form-control animate__fadeIn delay2" id="exampleInputPassword1">
+                        <label for="mail" class="form-label animate__animated animate__fadeIn delay2">Mail</label>
+                        <input type="password" class="form-control animate__fadeIn delay2" id="mail">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label animate__animated animate__fadeIn delay3">Telefono</label>
-                        <input type="password" class="form-control animate__fadeIn delay3" id="exampleInputPassword1">
+                        <label for="telefono" class="form-label animate__animated animate__fadeIn delay3">Telefono</label>
+                        <input type="password" class="form-control animate__fadeIn delay3" id="telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label animate__animated animate__fadeIn delay3">Asunto</label>
+                        <textarea class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea>
                     </div>
 
-
-
-                    <button class="btn btn-primary animate__animated animate__fadeIn delay5"><a href="">Continuar</a></button>
+                    <button class="btn btn-primary animate__animated animate__fadeIn delay5 mx-auto">Continuar</button>
                 </form>
             </div>
         </div>
@@ -71,9 +75,9 @@
             <h3>Todos los derechos reservados</h3>
         </div>
         <div class="media ">
-            <a class="animate__animated animate__fadeIn" href="https://github.com/bruselas24"><img src="../img/github.png" alt="github"></a>
-            <a class="animate__animated animate__fadeIn" href="https://www.linkedin.com/in/brunotorress/"><img src="../img/linkedin.png" alt="linkedIn"></a>
-            <a class="animate__animated animate__fadeIn" href="https://instagram.com/brunotorres.03"><img src="../img/instagram.png" alt="instagram"></a>
+            <a class="animate__animated animate__fadeIn" href="https://github.com/bruselas24"><img src="../img/github.png" alt="Link hacia mi GitHub"></a>
+            <a class="animate__animated animate__fadeIn" href="https://www.linkedin.com/in/brunotorress/"><img src="../img/linkedin.png" alt="Link hacia mi LinkedIn"></a>
+            <a class="animate__animated animate__fadeIn" href="https://instagram.com/brunotorres.03"><img src="../img/instagram.png" alt="Link hacia mi Instagram"></a>
         </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
